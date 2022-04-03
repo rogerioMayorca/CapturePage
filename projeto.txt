@@ -1,0 +1,13 @@
+local para video Ok
+link para as redes sociais OK
+depoimento dos alunos ok
+o que vai aprender no curso ok
+classes em portugues e letra maiuscula
+local para preço do produto
+bonus ao comprar o curso
+duvidas frquentes
+link para contato {formulario com nome email e a mensagem para o contato}
+cores escolhas da sherinha dps
+uso de icones
+fazer responsive
+botoes de captura espalhados pelo site {quer começar clique aqui} isso vai ter que ser como java script acho eu
