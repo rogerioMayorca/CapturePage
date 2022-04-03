@@ -1,0 +1,492 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,600;1,900&display=swap");
+
+@keyframes transform {
+  from {
+    transform: scale(1);
+  }
+
+  to {
+    transform: scale(1.1);
+  }
+}
+
+body {
+  height: auto;
+  width: auto;
+  background-color: black;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+}
+
+.DivPaConquistar {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 8000px;
+}
+
+.TituloH1 {
+  color: white;
+  font-size: 25px;
+  font-family: Arial, sans-serif;
+  line-height: 1.3em;
+}
+
+.DestacadoH1 {
+  color: rgb(228, 91, 114);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.VideoFicticio {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 700px;
+  height: 500px;
+  background-color: rgb(228, 91, 114);
+  border-radius: 20px;
+}
+
+.CartaoUm {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 250px;
+  height: 335px;
+  background-color: rgb(255, 255, 255);
+  padding: 30px;
+  border: none;
+  border-radius: 30px;
+  box-shadow: 5px 7px 7px 2px rgba(0, 0, 0, 0.71);
+  font-family: "Exo", sans-serif;
+}
+
+.CartaoUm:hover {
+  animation: 0.6s transform;
+  transform: scale(1.1);
+}
+
+.CartaoUm > img {
+  width: 150px;
+}
+
+.CartaoUm > h2 {
+  color: #092359;
+  font-family: "Exo", Sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 1.2em;
+  margin-top: 20px;
+  margin-bottom: 48px;
+}
+
+.CartaoUm > span {
+  margin-bottom: 94px;
+  width: 270px;
+  line-height: 25px;
+}
+
+.CartaoDois {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 250px;
+  height: 335px;
+  background-color: rgb(255, 255, 255);
+  padding: 30px;
+  font-family: "Exo", sans-serif;
+  border: none;
+  border-radius: 30px;
+  box-shadow: 5px 7px 7px 2px rgba(0, 0, 0, 0.71);
+}
+
+.CartaoDois:hover {
+  animation: 0.6s transform;
+  transform: scale(1.1);
+}
+
+.CartaoDois > img {
+  width: 150px;
+}
+
+.CartaoDois > h2 {
+  color: #092359;
+  font-family: "Exo", Sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 1.2em;
+  margin-top: 20px;
+  margin-bottom: 48px;
+}
+
+.CartaoDois > span {
+  margin-bottom: 94px;
+  width: 270px;
+  line-height: 25px;
+}
+
+.CartaoTres {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 250px;
+  height: 335px;
+  background-color: rgb(255, 255, 255);
+  padding: 30px;
+  font-family: "Exo", sans-serif;
+  border: none;
+  border-radius: 30px;
+  box-shadow: 5px 7px 7px 2px rgba(0, 0, 0, 0.71);
+}
+
+.CartaoTres:hover {
+  animation: 0.6s transform;
+  transform: scale(1.1);
+}
+
+.CartaoTres > img {
+  width: 150px;
+}
+
+.CartaoTres > h2 {
+  color: #092359;
+  font-family: "Exo", Sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 1.2em;
+  margin-top: 20px;
+  margin-bottom: 48px;
+}
+
+.CartaoTres > span {
+  margin-bottom: 94px;
+  width: 270px;
+  line-height: 25px;
+}
+
+.DepoimentoAlunos {
+  width: 600px;
+  height: 400px;
+  background-color: rgb(228, 91, 114);
+}
+
+.SessaoQuatro > div > h2 {
+  font-size: 23px;
+  color: #1871b4;
+  font-weight: bold;
+}
+.SessaoQuatro > div > h3 {
+  font-size: 24px;
+  color: #092359;
+  font-weight: bold;
+  margin-bottom: 21px;
+  max-width: 214px;
+  align-self: center;
+}
+
+.CartoesMod {
+  display: flex;
+}
+
+.ModUm {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 250px;
+  height: 400px;
+  background-color: white;
+  border-radius: 20px;
+  text-align: center;
+  border-right: solid 2px black;
+  border-left: solid 2px black;
+  box-shadow: 5px 7px 7px 2px rgba(0, 0, 0, 0.71);
+}
+
+.ModUm:hover {
+  animation: 0.6s transform;
+  transform: scale(1.1);
+}
+
+.ModUm > h2 {
+  margin-top: -33px;
+}
+
+.ModUm > span {
+  margin-top: -40px;
+}
+
+.ModDois {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 250px;
+  height: 400px;
+  background-color: white;
+  border-radius: 20px;
+  text-align: center;
+  border-right: solid 2px black;
+  border-left: solid 2px black;
+  box-shadow: 5px 7px 7px 2px rgba(0, 0, 0, 0.71);
+}
+
+.ModDois:hover {
+  animation: 0.6s transform;
+  transform: scale(1.1);
+}
+
+.ModDois > h2 {
+  margin-top: -33px;
+}
+
+.ModDois > span {
+  margin-top: -40px;
+}
+.ModTres {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 250px;
+  height: 400px;
+  background-color: white;
+  border-radius: 20px;
+  text-align: center;
+  border-right: solid 2px black;
+  border-left: solid 2px black;
+  box-shadow: 5px 7px 7px 2px rgba(0, 0, 0, 0.71);
+}
+
+.ModTres:hover {
+  animation: 0.6s transform;
+  transform: scale(1.1);
+}
+
+.ModTres > h2 {
+  margin-top: -33px;
+}
+
+.ModTres > span {
+  margin-top: -40px;
+}
+
+.ModQuatro {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 250px;
+  height: 400px;
+  background-color: white;
+  border-radius: 20px;
+  text-align: center;
+  border-right: solid 2px black;
+  border-left: solid 2px black;
+  box-shadow: 5px 7px 7px 2px rgba(0, 0, 0, 0.71);
+}
+
+.ModQuatro:hover {
+  animation: 0.6s transform;
+  transform: scale(1.1);
+}
+
+.ModQuatro > h2 {
+  margin-top: -33px;
+}
+
+.ModQuatro > span {
+  margin-top: -40px;
+}
+
+.DuvidasFrequentes {
+  width: 600px;
+  height: 400px;
+  background-color: rgb(228, 91, 114);
+}
+
+.Comunidade {
+  width: 600px;
+  height: 400px;
+  background-color: rgb(228, 91, 114);
+}
+
+.PreçoProduto {
+  width: 600px;
+  height: 400px;
+  background-color: rgb(228, 91, 114);
+}
+
+.Bonus {
+  width: 600px;
+  height: 400px;
+  background-color: rgb(228, 91, 114);
+}
+
+.SessaoUm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 800px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(92, 88, 236, 1) 84%
+  );
+}
+
+.SessaoDois {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  height: 750px;
+  background: white;
+}
+
+.SessaoTres {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 650px;
+  background: #1f1d1d;
+}
+
+.SobreMim {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 900px;
+  height: 700px;
+}
+
+.SobreMim > h2 {
+  position: absolute;
+  font-size: 30px;
+  font-family: "Exo", sans-serif;
+  margin-left: 268px;
+  margin-bottom: 397px;
+  color: white;
+}
+
+.ImagemTexto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ImagemTexto > img {
+  margin-right: 50px;
+  width: 360px;
+  border-radius: 29px;
+}
+
+.ImagemTexto > span {
+  color: white;
+  line-height: 30px;
+  width: 450px;
+  margin-top: 52px;
+  text-align: justify;
+}
+
+.Depoimentos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 800px;
+  background: #7e2c2c;
+}
+
+.SessaoQuatro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  height: 800px;
+  background: #f0f0f0;
+}
+
+.SessaoCinco {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 800px;
+  background: linear-gradient(
+    0deg,
+    rgba(134, 186, 224, 1) 4%,
+    rgba(88, 146, 236, 1) 84%
+  );
+}
+
+.SessaoSeis {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 800px;
+  background: #f0f0f0;
+}
+
+.SessaoSete {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 800px;
+  background: linear-gradient(
+    0deg,
+    rgba(134, 186, 224, 1) 4%,
+    rgba(88, 146, 236, 1) 84%
+  );
+}
+
+.SessaoOito {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 800px;
+  background: #f0f0f0;
+}
+
+.BotaoSaber {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  width: 100%;
+  margin-top: 30px;
+  text-transform: uppercase;
+  font-size: 20px;
+  text-decoration: inherit;
+  font-family: "Exo", sans-serif;
+  fill: black;
+  line-height: 30px;
+  font-weight: 900;
+  border: none;
+  border-radius: 10px;
+  background: #f39200;
+  text-shadow: 0px 0px 10px rgb(0 0 0 / 30%);
+}
+
+.BotaoSaber:hover {
+  cursor: pointer;
+  animation: 2.4s transform;
+  transform: scale(1.1);
+}
+
+.SaberMais {
+  width: 200px;
+  margin-top: 5px;
+}

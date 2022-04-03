@@ -1,13 +1,29 @@
-local para video Ok
-link para as redes sociais OK
-depoimento dos alunos ok
-o que vai aprender no curso ok
-classes em portugues e letra maiuscula
-local para preço do produto
+Sections
+local para video (OK)
+quem é a sherinha ponto dim terrogação? (OK)
+depoimento dos alunos contagem de quantos alunos tem no curso acima ok 3
+o que vai aprender no curso ok  4
+duvidas frquentes ok 5
+descrever a comunidade da sherinha ok 6
+local para preço do produto ok 7
 bonus ao comprar o curso
-duvidas frquentes
 link para contato {formulario com nome email e a mensagem para o contato}
-cores escolhas da sherinha dps
-uso de icones
+sections
+
+coisas do projeto
+varios links para wpp e um link redondinho no lado
+classes em portugues e letra maiuscula
 fazer responsive
+uso de icones
 botoes de captura espalhados pelo site {quer começar clique aqui} isso vai ter que ser como java script acho eu
+cores escolhas da sherinha dps
+
+coisas do projeto
+
+
+
+links uteis: 
+
+https://cssgradient.io/
+https://jornadaenriquecendoonline.com/?gclid=CjwKCAjwi6WSBhA-EiwA6NiokwA_Mci6PUzeKvqrhh5nQE25BIWpXFhJfY9rxEkZ2RyKTEeAemLnThoCLeAQAvD_BwE
+https://cssgenerator.org/box-shadow-css-generator.html
