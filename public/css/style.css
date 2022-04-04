@@ -49,7 +49,7 @@ header {
   justify-content: center;
   width: 700px;
   height: 500px;
-  background-color: rgb(228, 91, 114);
+  background-color: transparent;
   border-radius: 20px;
 }
 
@@ -179,6 +179,115 @@ header {
   background-color: rgb(228, 91, 114);
 }
 
+
+
+
+
+.Comunidade {
+  width: 600px;
+  height: 400px;
+  background-color: rgb(228, 91, 114);
+}
+
+.PreçoProduto {
+  width: 600px;
+  height: 400px;
+  background-color: rgb(228, 91, 114);
+}
+
+.Bonus {
+  width: 600px;
+  height: 400px;
+  background-color: rgb(228, 91, 114);
+}
+
+.SessaoUm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 800px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(92, 88, 236, 1) 84%
+  );
+}
+
+.SessaoDois {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  height: 750px;
+  background: white;
+}
+
+.SessaoTres {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 650px;
+  background: #1f1d1d;
+}
+
+.SobreMim {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 900px;
+  height: 700px;
+}
+
+.SobreMim > h2 {
+  position: absolute;
+  font-size: 30px;
+  font-family: "Exo", sans-serif;
+  margin-left: 268px;
+  margin-bottom: 397px;
+  color: white;
+}
+
+.ImagemTexto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ImagemTexto > img {
+  margin-right: 50px;
+  width: 360px;
+  border-radius: 29px;
+}
+
+.ImagemTexto > span {
+  color: white;
+  line-height: 30px;
+  width: 450px;
+  margin-top: 52px;
+  text-align: justify;
+}
+
+.Depoimentos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 800px;
+  background: #7e2c2c;
+}
+
+.SessaoQuatro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  height: 800px;
+  background: #f0f0f0;
+}
 .SessaoQuatro > div > h2 {
   font-size: 23px;
   color: #1871b4;
@@ -304,129 +413,70 @@ header {
   margin-top: -40px;
 }
 
-.DuvidasFrequentes {
-  width: 600px;
-  height: 400px;
-  background-color: rgb(228, 91, 114);
-}
-
-.Comunidade {
-  width: 600px;
-  height: 400px;
-  background-color: rgb(228, 91, 114);
-}
-
-.PreçoProduto {
-  width: 600px;
-  height: 400px;
-  background-color: rgb(228, 91, 114);
-}
-
-.Bonus {
-  width: 600px;
-  height: 400px;
-  background-color: rgb(228, 91, 114);
-}
-
-.SessaoUm {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 800px;
-  background: linear-gradient(
-    180deg,
-    rgba(255, 255, 255, 1) 0%,
-    rgba(92, 88, 236, 1) 84%
-  );
-}
-
-.SessaoDois {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  width: 100%;
-  height: 750px;
-  background: white;
-}
-
-.SessaoTres {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 650px;
-  background: #1f1d1d;
-}
-
-.SobreMim {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 900px;
-  height: 700px;
-}
-
-.SobreMim > h2 {
-  position: absolute;
-  font-size: 30px;
-  font-family: "Exo", sans-serif;
-  margin-left: 268px;
-  margin-bottom: 397px;
-  color: white;
-}
-
-.ImagemTexto {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.ImagemTexto > img {
-  margin-right: 50px;
-  width: 360px;
-  border-radius: 29px;
-}
-
-.ImagemTexto > span {
-  color: white;
-  line-height: 30px;
-  width: 450px;
-  margin-top: 52px;
-  text-align: justify;
-}
-
-.Depoimentos {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 800px;
-  background: #7e2c2c;
-}
-
-.SessaoQuatro {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  justify-content: space-around;
-  width: 100%;
-  height: 800px;
-  background: #f0f0f0;
-}
-
 .SessaoCinco {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
   width: 100%;
   height: 800px;
-  background: linear-gradient(
-    0deg,
-    rgba(134, 186, 224, 1) 4%,
-    rgba(88, 146, 236, 1) 84%
-  );
+  background-color: #232323;
+  margin-top: -50px;
+}
+
+.TituloDuv{
+  font-size: 50px;
+  margin-top: 50px;
+  color: white;
+}
+
+.DuvUm {
+  display: flex;
+  align-items: center;
+  width: 700px;
+  height: 82px;
+  background-color: #004AAD;
+  box-shadow: 5px 7px 7px 2px rgba(0, 0, 0, 0.71);
+  margin-top: 32px;
+  
+}
+
+.DuvDois {
+  display: flex;
+  align-items: center;
+  width: 700px;
+  height: 82px;
+  background-color: #004AAD;
+  box-shadow: 5px 7px 7px 2px rgba(0, 0, 0, 0.71);
+}
+
+.DuvTres {
+  display: flex;
+  align-items: center;
+  width: 700px;
+  height: 82px;
+  background-color: #004AAD;
+  box-shadow: 5px 7px 7px 2px rgba(0, 0, 0, 0.71);
+}
+
+.DuvQuatro {
+  display: flex;
+  align-items: center;
+  width: 700px;
+  height: 82px;
+  background-color: #004AAD;
+  box-shadow: 5px 7px 7px 2px rgba(0, 0, 0, 0.71);
+}
+
+.DuvCinco {
+  display: flex;
+  align-items: center;
+  width: 700px;
+  height: 82px;
+  background-color: #004AAD;
+  box-shadow: 5px 7px 7px 2px rgba(0, 0, 0, 0.71);
+  margin-bottom: 51px;
 }
 
 .SessaoSeis {
@@ -489,4 +539,15 @@ header {
 .SaberMais {
   width: 200px;
   margin-top: 5px;
+}
+
+#DestacadoDuv{
+  font-weight: bold;
+  font-size: 60px;
+}
+#EstDuv{
+  font-weight: bold;
+  color: white;
+  font-size: 20px;
+  margin-left: 20px;
 }

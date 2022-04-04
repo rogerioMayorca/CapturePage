@@ -17,6 +17,7 @@ fazer responsive
 uso de icones
 botoes de captura espalhados pelo site {quer começar clique aqui} isso vai ter que ser como java script acho eu
 cores escolhas da sherinha dps
+card dos modulos com interação de click com modal para o conteudo dos modulos
 
 coisas do projeto
 
