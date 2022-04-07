@@ -477,6 +477,13 @@ header {
   background-color: #004AAD;
   box-shadow: 5px 7px 7px 2px rgba(0, 0, 0, 0.71);
   margin-bottom: 51px;
+  
+}
+.Detalhes{
+  cursor: pointer;color: white;
+  font-size: 22px;
+  position: absolute;
+  margin-left: 633px;
 }
 
 .SessaoSeis {
